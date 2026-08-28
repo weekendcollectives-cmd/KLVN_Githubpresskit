@@ -314,18 +314,6 @@ Budget: ${data.get("budget")}
   <span data-fs-error="message"></span>
   <button type="submit" data-fs-submit-btn>Submit</button>
 </form>
-<script>
-  window.formspree =
-    window.formspree ||
-    function () {
-      (formspree.q = formspree.q || []).push(arguments);
-    };
-  formspree("initForm", {
-    formElement: "#my-form",
-    formId: "xeajynna",
-  });
-</script>
-<script src="https://unpkg.com/@formspree/ajax@1" defer></script>
   
 Message:
 ${data.get("message")}`
